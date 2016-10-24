@@ -1,0 +1,14 @@
+{
+    "name": "facebook-bleaching-top-bar-color-chrome-extension",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "wheh you open facebook page, your facebook page's top blue bar is bleached",
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.facebook.com/*"],
+            "js": ["facebook-bleaching-top-bar-color-chrome-extension.js"]
+        }
+    ]
+}
